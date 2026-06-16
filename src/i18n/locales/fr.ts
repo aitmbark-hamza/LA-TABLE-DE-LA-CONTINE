@@ -1,0 +1,126 @@
+export const fr = {
+  nav: {
+    home: "Accueil",
+    about: "À propos",
+    services: "Services",
+    gallery: "Galerie",
+    contact: "Contact",
+    cta: "Demander un devis",
+  },
+  hero: {
+    eyebrow: "Organisation d'Événements",
+    title: "Organisation d'événements haut de gamme au Maroc",
+    subtitle:
+      "Nous créons des expériences uniques adaptées à chaque événement.",
+    ctaPrimary: "Demander un devis",
+    ctaSecondary: "Contact WhatsApp",
+    scroll: "Découvrir",
+  },
+  about: {
+    eyebrow: "À propos de Tritor",
+    title: "Votre partenaire événementiel de confiance",
+    p1: "Tritor est une agence spécialisée dans l'organisation d'événements au Maroc. Nous proposons des services complets incluant la planification, la coordination, le design et le catering.",
+    p2: "Notre équipe expérimentée met son expertise au service de vos projets, qu'il s'agisse de mariages, d'événements privés ou de manifestations corporate, pour créer des moments inoubliables.",
+    stats: [
+      { value: "500+", label: "Événements" },
+      { value: "10", label: "Ans d'expérience" },
+      { value: "100%", label: "Satisfaction" },
+    ],
+  },
+  services: {
+    eyebrow: "Nos services",
+    title: "Des solutions événementielles complètes",
+    subtitle: "Sept expertises pour sublimer chacune de vos occasions.",
+    items: [
+      { title: "Mariages", desc: "Organisation complète de votre jour J, de la conception à la réalisation." },
+      { title: "Fiançailles", desc: "Cérémonies intimistes et réception élégante pour célébrer votre engagement." },
+      { title: "Anniversaires", desc: "Fêtes privées personnalisées pour marquer vos moments spéciaux." },
+      { title: "Événements privés", desc: "Réceptions exclusives et soirées sur mesure pour vos occasions personnelles." },
+      { title: "Cocktails & dîners", desc: "Cocktails dinatoires et dîners raffinés pour vos événements prestigieux." },
+      { title: "Service traiteur", desc: "Catering de qualité pour tous vos événements, petits ou grands." },
+      { title: "Événements corporate", desc: "Séminaires, lancements de produits et événements d'entreprise professionnels." },
+    ],
+  },
+  gallery: {
+    eyebrow: "Galerie",
+    title: "Moments d'exception",
+    filters: ["Tous", "Mariages", "Cocktails", "Entreprise", "Privé"],
+  },
+  why: {
+    eyebrow: "Pourquoi Tritor",
+    title: "Six engagements, une seule signature",
+    items: [
+      { title: "Qualité Premium", desc: "Services d'exception et partenaires de confiance pour vos événements." },
+      { title: "Équipe Professionnelle", desc: "Experts en organisation d'événements formés aux meilleures pratiques." },
+      { title: "Service Personnalisé", desc: "Un interlocuteur dédié à l'écoute de tous vos besoins." },
+      { title: "Respect des Délais", desc: "Une planification rigoureuse pour une exécution sans accroc." },
+      { title: "Satisfaction Client", desc: "Un suivi attentionné, avant, pendant et après votre événement." },
+      { title: "Excellence", desc: "Un engagement total pour la réussite de chaque projet." },
+    ],
+  },
+  testimonials: {
+    eyebrow: "Témoignages",
+    title: "Ils nous ont confié leurs plus beaux instants",
+    items: [
+      { quote: "Un service d'une élégance rare. Tritor a transformé notre mariage en un souvenir gravé pour toujours.", name: "Sarah & Karim", event: "Mariage" },
+      { quote: "Une équipe attentive, une organisation parfaite. Nos invités en parlent encore plusieurs mois après.", name: "Yasmine A.", event: "Cocktail dînatoire" },
+      { quote: "Professionnalisme exemplaire. Le gala de notre groupe a été à la hauteur de notre image.", name: "Mehdi B., Directeur", event: "Événement d'entreprise" },
+      { quote: "Une organisation généreuse, une scénographie raffinée. Tout simplement parfait.", name: "Leïla & Anis", event: "Fiançailles" },
+    ],
+  },
+  how: {
+    eyebrow: "Notre démarche",
+    title: "Cinq étapes, zéro improvisation",
+    steps: [
+      { title: "Contact", desc: "Vous nous contactez, nous vous répondons rapidement." },
+      { title: "Consultation", desc: "Un rendez-vous pour comprendre votre vision et vos besoins." },
+      { title: "Proposition", desc: "Un devis détaillé et transparent adapté à votre budget." },
+      { title: "Planification", desc: "Notre équipe organise tous les détails de votre événement." },
+      { title: "Réalisation", desc: "Le jour J, vous profitez, nous gérons tout." },
+    ],
+  },
+  contact: {
+    eyebrow: "Contact",
+    title: "Parlons de votre événement",
+    subtitle: "Un projet, une date, une intuition ? Notre équipe vous répond sous 24 heures.",
+    fields: {
+      name: "Nom",
+      phone: "Téléphone",
+      email: "Email",
+      eventType: "Type d'événement",
+      guests: "Nombre d'invités",
+      date: "Date de l'événement",
+      message: "Message",
+      submit: "Envoyer",
+    },
+    info: {
+      whatsapp: "WhatsApp",
+      phone: "Téléphone",
+      email: "Email",
+      address: "Adresse",
+      addressValue: "1er Étage, 36 Bd du Nil, Casablanca 20250",
+      hours: "Horaires",
+      hoursValue: "Lun — Sam · 9h — 18h",
+      emailValue: "contact@tritor.ma",
+    },
+    success: "Merci ! Nous revenons vers vous très vite.",
+    errors: {
+      required: "Champ requis",
+      email: "Email invalide",
+      phone: "Téléphone invalide",
+    },
+  },
+  footer: {
+    tagline: "Organisation d'événements et services traiteur.",
+    quickLinks: "Navigation",
+    contact: "Contact",
+    follow: "Suivez-nous",
+    rights: "Tous droits réservés.",
+  },
+  floating: {
+    whatsapp: "Discuter sur WhatsApp",
+    top: "Retour en haut",
+  },
+};
+
+export type Dict = typeof fr;
